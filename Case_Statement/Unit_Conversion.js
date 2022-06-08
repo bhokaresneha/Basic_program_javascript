@@ -10,9 +10,9 @@
 
 
 console.log("Welcome to Unit Conversion");
-console.log("Enter ur choice for unit conversion\n1 Feet to Inch \t2 feet to Meter \n3 Inch to Feet \t4 Meter to Feet");
-let ch = 1;
-let number = 10;
+const prompts=require("prompt-sync")();
+const ch = parseInt(prompts("Enter ur choice for unit conversion\n1 Feet to Inch \t2 feet to Meter \n3 Inch to Feet \t4 Meter to Feet"));
+const number = parseInt(prompts("Enter the Value to convert"));
 let result;
 
 switch (ch){

@@ -5,21 +5,20 @@
 */
 
 console.log("Read the number and display");
-let number = [1,10,100,1000];
-console.log("Enter array index to display number in words");
-let ch = 2;
+const prompts=require("prompt-sync")();
+const ch = parseInt(prompts("Enter no to display Unit of that number"));
 
 switch (ch){
-    case 0:
+    case 1:
         console.log("Unit");
         break;
-    case 1:
+    case 10:
         console.log("Ten");
         break;
-    case 2:
+    case 100:
         console.log("Hundred");
         break;
-    case 3:
+    case 100:
         console.log("Thousand");
         break;
     default :

@@ -4,6 +4,7 @@
             // Assumed=> head=0 ,tail=1;
 */
 
+
 // randomly generating no 
 let coin=Math.floor(Math.random()*2)
 console.log(coin);

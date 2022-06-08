@@ -1,10 +1,12 @@
 /*
  * Problem Statement=>
-                        3. Write a program that takes a input and determines if the number is a prime.
+                        4. Extend the program to take a range of number as input and output the Prime
+
 
 */
 console.log("Checking the number is prime or not");
-let number =50;
+const prompts=require("prompt-sync")();
+let number = parseInt(prompts("Enter no to display prime numbers between 0 to given no "));
 
 for(let j = 1; j<= number;j++){
     let count = 0;

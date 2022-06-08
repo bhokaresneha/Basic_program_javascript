@@ -5,10 +5,9 @@
 */
 
 
-
+const prompts=require("prompt-sync")();
+const number = parseInt(prompts("What is your no?"))
 console.log("Printing the given number in words:")
-const number = 3;
-
 switch (number){
     case 0:
         console.log("Zero");

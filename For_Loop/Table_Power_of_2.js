@@ -5,7 +5,8 @@
 */
 
 console.log("Priniting the table of 2 till given power");
-let power = 5;
+const prompts=require("prompt-sync")();
+let power = parseInt(prompts("Enter no to  display table of the power of 2=>"));
 for(let i = 1; i <= power;i++){
     console.log(Math.pow(2,i));
 }

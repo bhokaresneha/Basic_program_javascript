@@ -7,7 +7,8 @@ O/P -> Print the prime factors of number N.
 
 
 */
-n=135;
+const prompts=require("prompt-sync")();
+let n = parseInt(prompts("Enter no to display Factors "));
 let c = 2;
     while(1<n)
     {

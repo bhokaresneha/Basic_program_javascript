@@ -7,7 +7,8 @@
 
 
 console.log("Enter number to select Week Day");
-let number = 2;
+const prompts=require("prompt-sync")();
+const number =parseInt(prompts("What is your no?"));
 //const x= process.argv[2];
 //console.log(x)
 
