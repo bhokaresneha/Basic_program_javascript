@@ -7,17 +7,15 @@
 
 */
 
+console.log("Printing factorial of Number")
+const prompts=require("prompt-sync")();
+const number = parseInt(prompts("Enter no to display Factorial"));
+var factorial = 1;
+for(var i = 1;i <= number;i++){
+    factorial = factorial * i;
+}
+console.log("Factorial of ",number," is",factorial);
 
 
 
 
-n=135;
-let c = 2;
-    while(n > 1)
-    {
-        if(n % c == 0){
-            console.log(c + " ");
-            n /= c;
-        }
-        else c++;
-    }

@@ -4,8 +4,12 @@
                         false otherwise.
 */
 
-const day = process.argv[2];
-const month = process.argv[3];
+//const day = process.argv[2];
+//const month = process.argv[3];
+const prompts=require("prompt-sync")();
+let day=parseInt(prompts("Enter Day=>"));
+let month=parseInt(prompts("Enter month=>"));
+
 console.log("Date=>"+day+"\tMonth=>"+month)
 
 if(( month >= 3 && month <= 6 ))

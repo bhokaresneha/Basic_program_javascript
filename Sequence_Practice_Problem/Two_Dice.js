@@ -7,7 +7,7 @@
 //console.log(x*(6))
 //console.log(Math.floor(x*(6)))
 
-console.log(Math.floor(x*(6))+1)
+//console.log(Math.floor(x*(6))+1)
 let dice1=Math.floor(Math.random()*(6))+1
 let dice2=Math.floor(Math.random()*(6))+1
 

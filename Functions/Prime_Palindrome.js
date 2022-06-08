@@ -10,7 +10,8 @@ Series of PrimePAlindrome no=>2, 3, 5, 7, 11, 101, 131, 151, 181, 191, 313, 353,
 
 
 console.log("Prime Palindrome Program");
-let number = 2;
+const prompts=require("prompt-sync")();
+let number = parseInt(prompts("Enter Number "));
 let count = 0;
 let sum = 0;
 let temp = number;

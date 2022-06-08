@@ -3,15 +3,28 @@
                        4. Enter 3 Numbers do following arithmetic operation and find the one that is maximum and minimum
                                 1. a + b * c        3. c + a / b
                                 2. a % b + c        4. a * b + c
+OUTPUT=>
+                a=>37   b=>80   c=>43
+                a + b * c =>3477        a % b + c=>80   c + a / b=>43.4625      a * b + c =>3003
+                Finding Minimum...
+                minimum result = 43.46
+                
+                Finding Maximum...
+                Maximum result = 3477
 
  */
 
+//let a =Math.floor(Math.random() * 100);
+//let b = Math.floor(Math.random() * 100);
+//let c = Math.floor(Math.random() * 100);
+
+const prompts=require("prompt-sync")();
+let a = parseInt(prompts("Enter value of a "));
+let b = parseInt(prompts("Enter value of b "));
+let c = parseInt(prompts("Enter value of c "));
 
 
 
-let a =Math.floor(Math.random() * 100);
-let b = Math.floor(Math.random() * 100);
-let c = Math.floor(Math.random() * 100);
 
 console.log("a=>"+a+"\tb=>"+b+"\tc=>"+c)
 let result1 = a + b * c;

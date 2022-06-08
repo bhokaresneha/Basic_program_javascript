@@ -3,9 +3,11 @@
                     2. Write a function to check if the two numbers are Palindromes
 */
 
-console.log("Palindrome number");
-let number1 =454;
-let number2=101;
+console.log(" cheking 2 numbers are Palindrome number");
+const prompts=require("prompt-sync")();
+let number1 = parseInt(prompts("Enter First Number "));
+let number2 = parseInt(prompts("Enter First Number "));
+
 palindrome(number1,number2);
 
 function palindrome(){

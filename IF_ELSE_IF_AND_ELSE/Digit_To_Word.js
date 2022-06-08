@@ -3,9 +3,9 @@
                        1. Read a single digit number and write the number in word
  */
 
-
+const prompts=require("prompt-sync")();
+const number = prompts("What is your no?")
 console.log("Printing the given number in words:")
-const number = process.argv[2];
 if(number == 0){
     console.log("Zero");
 }

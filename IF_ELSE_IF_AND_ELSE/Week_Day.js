@@ -6,7 +6,12 @@
 
 
 console.log("Enter number to select Week Day");
-const number = process.argv[2];
+//const x=process.argv;
+//console.log(x);
+//const number = process.argv[2];
+const prompts=require("prompt-sync")();
+const number = prompts("Enter no which day want to display")
+
 if(number == 1){
     console.log("Sunday");
 }
