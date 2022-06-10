@@ -1,9 +1,11 @@
+
 /*
  * Problem Statement=>
           
  3. Extend the Prime Factorization Program to store all the Prime Factors of a
         number n into an array and finally display the output.
 */
+
 
 
 const prompts=require("prompt-sync")();
